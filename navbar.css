@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  gap: 8vw;
+  list-style-type: none;
+  padding: 0;
+  }
+
+nav li a {
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: larger;
+  color: black;
+  padding: 0.5rem 1rem;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+}
+
+nav li a:visited {
+  color: inherit;
+}
+
+nav li a:hover {
+  background-color: #090c14;
+  color: white;
+}
+
+
+nav li a:active {
+  background-color: #8bff87;
+}
+
+.container {
+  height: 70vh;
+  background-color: gray;
+}

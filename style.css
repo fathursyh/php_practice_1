@@ -1,24 +1,21 @@
-body {
-  margin: 0;
-  background-color: rgb(194, 255, 255);
-}
-
-nav > ul {
-  list-style-type: none;
+* {
   margin: 0;
   padding: 0;
-  border: 1px 1px black;
 }
 
-nav li {
-  display: inline-block;
-  width: 100px;
-  color: yellow;
-  text-align: center;
+body {
+  background: url('./assets/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 50px;
 }
 
 .container {
-  height: 70vh;
-  background-color: gray;
-  margin: 20px 0px;
+  position: absolute;
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
+  background: white;
+  
 }
