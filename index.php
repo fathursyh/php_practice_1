@@ -22,8 +22,26 @@
         <div class="paper">
             <p>malam tahun baru tersisa <?php echo "$days" ?> hari lagi</p>
             <?php
-                echo "<p>fathur itu ", $fathur,"</p>";
-                echo "<p>panjang tongkat itu adalah $panjang cm</p>"
+            // VARIABLES AND STRING MANIPULATIONS
+                echo "<p>fathur itu ", $ganteng,"</p>";
+                echo "<p>panjang tongkat itu adalah $panjang cm</p>";
+                echo "<p>", str_repeat($jurusan, 2), "</p>";
+                echo "<p>Fathur ", str_replace('banget', 'sekali', $ganteng), "<br></p";
+                echo "<p>", substr($paragraf, 0, 40), "</p>";
+            // CONTROL
+                if (date('l') == 'Sunday') {
+                    echo "<p>kami tutup</p>";
+                } else {
+                    echo "<p>kami buka dari jam 7</p>";
+                }
+                while ($panjang < 20) {
+                    echo $panjang, "<br>";
+                    $panjang++;
+                }
+                echo "<hr>";
+                for ($i = 0; $i < 5; $i++) {
+                    echo $i, "<br>";
+                }
             ?>
         </div>
     </div>
