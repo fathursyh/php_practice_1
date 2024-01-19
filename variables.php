@@ -1,4 +1,4 @@
 <?php 
-  $fathur = 'ganteng';
+  $fathur = 'keren banget';
   $jurusan = 'ilkom';
   $panjang = 15;
