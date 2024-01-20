@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="./style.css">
 
 </head>
-<?php include 'time.php'; ?>
-<?php include 'variables.php'; ?>
+<?php include_once 'time.php'; ?>
+<?php include_once 'variables.php'; ?>
+<?php include_once 'variables2.php'; ?>
+<?php include_once 'functions.php'; ?>
 
 <body>
     <nav>
@@ -44,8 +46,13 @@
                 for ($i = 0; $i < 5; $i++) {
                     echo $i, "<br>";
                 }
-                //
-
+                
+                echo $cantik, "<br>";
+                echo $dia;
+                nl();
+                echo gettype($suhu);
+                var_dump($ujan);
+                print_r($hewan);
             ?>
         </div>
     </div>
