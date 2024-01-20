@@ -7,11 +7,18 @@
     <title>Contact</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-
+<?php include_once 'createdb.php'; ?>
 <body>
     <nav>
         <ul> <?php include 'navbar.php'; ?></ul>
     </nav>
+
+    <div class="container">
+        <div class="paper">
+           <?php 
+           ?>
+        </div>
+    </div>
 </body>
 
 </html>
