@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   font-family: Verdana, sans-serif;
+  transition-property: opacity, visibility;
+  transition-duration: 4s;
 }
 
 html {
@@ -9,7 +11,7 @@ html {
 }
 
 body {
-  height: inherit;
+  height: 100vh;
  
 }
 
@@ -51,6 +53,7 @@ li a:hover {
   width: 100%;
   background-color: green;
  background: url(./assets/bg.png);
+ transition-property: none;
 }
 
 .paper {
@@ -59,9 +62,20 @@ li a:hover {
   height: 80%;
   width: 80%;
   background-color: rgba(255, 255, 255, 0.808);
+  overflow-y: auto;
+  animation-name: fade;
+  animation-duration: 3s; 
 }
 
 .container .paper p {
-  overflow-y: auto;
   color: red;
+}
+
+@keyframes fade {
+  from {
+    opacity: .2;
+  }
+  to {
+    opacity: 1;
+  }
 }

@@ -15,6 +15,9 @@
 # 4 Compound Types
   # array
   $hewan = ['kucing', 'ikan', 'gajah', 'singa'];
+  $akun = ['nama' => 'Fathur', 'alamat' => 'indo', 'umur' => 20];
+  $array1 = ['a', 'b', 'c'];
+  $array2 = ['d', 'e', 'f', 'g'];
   # object
   # callable
   # iterable

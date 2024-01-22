@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <?php include_once 'createdb.php'; ?>
+<?php include_once 'functions.php'; ?>
 
 <body>
     <nav>
@@ -16,12 +17,7 @@
 
     <div class='container'>
         <div class='paper'>
-            <form action="submitForm.php" method="post">
-                Nama    <input type="text" name="nama"/><br/>
-                Umur    <input type="text" name="umur"/><br/>
-                Gender  <input type="text" name="gender"/><br/>
-                <input name="submit1" type="submit" value="submit"/>   
-            </form>
+            <?php include_once 'practice_page1.php'; ?>
         </div>
     </div>
 </body>

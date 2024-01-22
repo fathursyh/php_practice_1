@@ -39,3 +39,18 @@ saya
 fathur
 TEXT; // MULTILINE STRING Heredoc
 tp(nl2br($cantik)); // nl2br = buat kasih newline ke string berjajar
+nl();
+array_push($hewan, 'kudanil', 'kuda'); // push array
+print_r($hewan);
+nl();
+echo$akun['nama'], ' ', $akun['umur'], ' ', $akun['alamat'];
+nl();
+echo count($akun); nl();
+echo 10 & 2; // operasi modulus biasa, output integer
+nl();
+echo fmod(10, 3); // operasi modulus biar bisa pake tipe data float
+fdiv(10, 2); // fungsi pembagian
+nl();
+$z = $array1 + $array2;
+print_r($z);
+
