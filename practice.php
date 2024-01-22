@@ -45,6 +45,7 @@ print_r($hewan);
 nl();
 echo$akun['nama'], ' ', $akun['umur'], ' ', $akun['alamat'];
 nl();
+<<<<<<< HEAD
 echo count($akun); nl();
 echo 10 & 2; // operasi modulus biasa, output integer
 nl();
@@ -53,4 +54,7 @@ fdiv(10, 2); // fungsi pembagian
 nl();
 $z = $array1 + $array2;
 print_r($z);
+=======
+echo count($akun);
+>>>>>>> 7fedf8a8466ab3318e7373a53f7512ac87c6a126
 
