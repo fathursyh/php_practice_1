@@ -39,3 +39,11 @@ saya
 fathur
 TEXT; // MULTILINE STRING Heredoc
 tp(nl2br($cantik)); // nl2br = buat kasih newline ke string berjajar
+nl();
+array_push($hewan, 'kudanil', 'kuda'); // push array
+print_r($hewan);
+nl();
+echo$akun['nama'], ' ', $akun['umur'], ' ', $akun['alamat'];
+nl();
+echo count($akun);
+
