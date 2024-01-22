@@ -22,10 +22,15 @@
 
     <div class="container">
         <div class="paper">
-            <p>malam tahun baru tersisa <?php echo "$days" ?> hari lagi</p>
-            <?php
-            include_once 'practice.php';
-            ?>
+            <div class='inside'>
+                <p>malam tahun baru tersisa
+                    <?php echo "$days" ?> hari lagi
+                </p>
+                <?php
+                include_once 'practice.php';
+                ?>
+            </div>
+
         </div>
     </div>
 
