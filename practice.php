@@ -12,7 +12,7 @@ if (date('l') == 'Saturday') {
     echo "<p>kami buka dari jam 7</p>";
 }
 echo "<p>WHILE LOOP</p>";
-while ($panjang < 20) {
+while ($panjang < 25) {
         echo $panjang, "<br>";
         $panjang++;
 }

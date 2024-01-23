@@ -52,16 +52,16 @@ li a:hover {
   height: 94.9%;
   width: 100%;
   background-color: green;
- background: url(./assets/bg.png);
+ background: url(./assets/bg2.jpg);
  transition-property: none;
 }
 
 .paper {
   border-radius: 20px;
+  padding: 20px 0px 30px 20px;
   height: 80%;
   width: 80%;
-  background-color: rgba(255, 255, 255, 0.808);
-  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.898);
   scrollbar-width: thin;
   scrollbar-color: orange;
   animation-name: fade;
@@ -71,8 +71,9 @@ li a:hover {
 .inside {
   /* background-color: blue; */
   overflow-y: auto;
-  height: 92.5%;
-  padding: 20px 30px 40px 30px;
+  height: 100%;
+  padding-right: 20px;
+  padding-bottom: 10px;
 }
 
 .container .paper p {
@@ -98,7 +99,7 @@ li a:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(155, 155, 155, 0.5);
+  background-color: rgba(255, 107, 107, 0.5);
   border-radius: 20px;
   border: transparent;
 }
