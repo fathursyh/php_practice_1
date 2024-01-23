@@ -33,3 +33,19 @@ while (true) {
   $i++;
 }
 echo "<hr />";
+nl();
+
+# FOR EACH LOOP (ARRAY)
+echo "<p>FOR EACH LOOP (ARRAY)<br/></p>";
+foreach ($hewan as $nama_hewan) {
+  echo $nama_hewan . '<br/>';
+}
+echo '<hr/>';
+nl();
+
+# FOR EACH LOOP with KEY (ARRAY)
+echo "<p>FOR EACH LOOP WITH KEY (ARRAY)<br/></p>";
+foreach ($hewan as $key => $nama_hewan) {
+  echo $key+1 .'. ' . $nama_hewan . '<br/>'; // key is index
+}
+echo '<hr/>';

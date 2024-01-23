@@ -26,7 +26,7 @@ echo $cantik, "<br>";
 echo $dia;
 nl();
 echo gettype($suhu);
-var_dump($ujan);
+// var_dump($ujan);
 print_r($hewan);
 nl();
 tp($nama[0]); // print string dari huruf index ke-0
@@ -53,4 +53,5 @@ fdiv(10, 2); // fungsi pembagian
 nl();
 $z = $array1 + $array2;
 print_r($z);
+echo "lorem ipsum dolor sit amet, consectet ut lroe, sed diam nonum lorem ipsum dolor sit amet", $paragraf;
 

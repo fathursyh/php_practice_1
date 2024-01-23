@@ -2,12 +2,11 @@
   padding: 0;
   margin: 0;
   font-family: Verdana, sans-serif;
-  transition-property: opacity, visibility;
-  transition-duration: 4s;
 }
 
 html {
   height: 100%;
+
 }
 
 body {
@@ -54,6 +53,8 @@ li a:hover {
   background-color: green;
  background: url(./assets/bg2.jpg);
  transition-property: none;
+   animation-name: fade;
+  animation-duration: 1s;
 }
 
 .paper {
@@ -61,15 +62,12 @@ li a:hover {
   padding: 20px 0px 30px 20px;
   height: 80%;
   width: 80%;
-  background-color: rgba(255, 255, 255, 0.898);
-  scrollbar-width: thin;
-  scrollbar-color: orange;
+  background-color: rgba(255, 255, 255, 0.778);
   animation-name: fade;
-  animation-duration: 3s; 
+  animation-duration: 2s; 
 }
 
 .inside {
-  /* background-color: blue; */
   overflow-y: auto;
   height: 100%;
   padding-right: 20px;

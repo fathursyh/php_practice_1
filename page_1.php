@@ -9,6 +9,8 @@
 </head>
 <?php include_once 'createdb.php'; ?>
 <?php include_once 'functions.php'; ?>
+<?php include_once 'variables.php'; ?>
+<?php include_once 'variables2.php'; ?>
 
 <body>
     <nav>
