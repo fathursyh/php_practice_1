@@ -21,7 +21,10 @@
 
     <div class='container'>
         <div class='paper'>
-            <?php include_once 'practice_page1.php'; ?>
+            <div class="inside">
+                <?php include_once 'practice_page1.php'; ?>
+            </div>
+            
         </div>
     </div>
 </body>

@@ -22,6 +22,7 @@
         <div class="paper">
            <?php 
                 include_once 'match_switch.php';
+                include_once 'file_practice.php';
            ?>
         </div>
     </div>
