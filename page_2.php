@@ -7,7 +7,12 @@
     <title>Contact</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<?php include_once 'createdb.php'; ?>
+    <?php
+        include_once 'createdb.php';
+        include_once 'functions.php'; 
+        include_once 'variables.php'; 
+        include_once 'variables2.php'; 
+    ?>
 <body>
     <nav>
         <ul> <?php include 'navbar.php'; ?></ul>
@@ -16,6 +21,7 @@
     <div class="container">
         <div class="paper">
            <?php 
+                include_once 'match_switch.php';
            ?>
         </div>
     </div>

@@ -7,10 +7,12 @@
     <title>Profile</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<?php include_once 'createdb.php'; ?>
-<?php include_once 'functions.php'; ?>
-<?php include_once 'variables.php'; ?>
-<?php include_once 'variables2.php'; ?>
+    <?php
+        include_once 'createdb.php';
+        include_once 'functions.php'; 
+        include_once 'variables.php'; 
+        include_once 'variables2.php'; 
+    ?>
 
 <body>
     <nav>

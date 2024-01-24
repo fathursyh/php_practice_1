@@ -48,4 +48,8 @@ echo "<p>FOR EACH LOOP WITH KEY (ARRAY)<br/></p>";
 foreach ($hewan as $key => $nama_hewan) {
   echo $key+1 .'. ' . $nama_hewan . '<br/>'; // key is index
 }
-echo '<hr/>';
+echo '<hr/>'; nl();
+
+$celsius = 100;
+$hasil = konversiCtoF($celsius);
+echo $hasil;
