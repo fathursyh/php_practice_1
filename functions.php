@@ -22,4 +22,4 @@ function sum(...$numbers) { // bisa nerima banyak parameter sebagai array
 
 function mobil(string $tipe, string $warna) : string {
   return $tipe . ' dan ' . $warna;
-}
+} // named arguments example

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Page 2</title>
     <link rel="stylesheet" href="./style.css">
 </head>
     <?php
@@ -22,6 +22,7 @@
         <div class="paper">
            <?php 
                 include_once 'match_switch.php';
+                echo '<p>FILE MANIPULATION</p>';
                 include_once 'file_practice.php';
            ?>
         </div>

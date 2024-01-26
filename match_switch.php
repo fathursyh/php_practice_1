@@ -29,6 +29,6 @@ match($paymentStatus) {
   'pending' => print 'payment pending',
   default => print 'unknown payment status',
 };
-nl();
+echo '<hr/>'; nl();
 
 

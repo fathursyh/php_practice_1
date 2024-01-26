@@ -93,6 +93,6 @@ function errorHandler(int $type, string $msg, ?string $file = null, ?int $line =
 
 set_error_handler('errorHandler', E_ALL);
 
-echo $pig;
+echo $dummy;
 
 
