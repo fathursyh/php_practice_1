@@ -24,5 +24,6 @@ while (($line = fgets($file)) !== false) {
 }
 
 fclose($file);
+echo "<hr />";
 
 
