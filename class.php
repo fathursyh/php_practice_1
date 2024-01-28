@@ -1,6 +1,5 @@
 <?php
 
-declare(strict_type=1);
 class Kendaraan {
 
   function __construct($warna, $jenis) {
