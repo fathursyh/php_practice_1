@@ -13,6 +13,7 @@
         include_once 'variables.php'; 
         include_once 'variables2.php'; 
         include_once 'class.php'; 
+        include_once 'class1.php'; 
         $root = dirname(__DIR__) . DIRECTORY_SEPARATOR;
     ?>
 <body>

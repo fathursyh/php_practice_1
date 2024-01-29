@@ -37,3 +37,8 @@ foreach($makan as $x =>$objek) {
   }
   echo '<hr/>';
 }
+nl();
+
+$transaction = new Transaction(10000, 'jajan');
+$transaction->addTax(10);
+echo $transaction->amount;
