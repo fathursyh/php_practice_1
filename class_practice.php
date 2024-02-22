@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 
 echo "<p><br/>CLASS PRACTICE</p>";
-$mobil1 = new Kendaraan('merah','sedan');
+$mobil1 = new kelas/Kendaraan('merah','sedan');
 echo "saya memilki mobil $mobil1->jenis berwarna $mobil1->warna."; nl();
 
 
@@ -37,3 +37,15 @@ foreach($makan as $x =>$objek) {
   }
   echo '<hr/>';
 }
+nl();// next
+$tokoBunga = new Toko(nomorToko: 4, nama: 'Florist');
+foreach($tokoBunga as $att => $value) {
+  if ($att === 'nomorToko') {
+    echo "nomor : $value <br/>"; // ganti nama attribute class biar gaya
+    continue;
+  }
+  echo "$att : $value <br/>";
+}
+
+
+

@@ -22,12 +22,14 @@
 
     <div class="container">
         <div class="paper">
+            <div class="inside">
            <?php 
                 include_once 'match_switch.php';
                 echo '<p>FILE MANIPULATION</p>';
                 include_once 'file_practice.php';
                 include_once 'class_practice.php';
            ?>
+           </div>
         </div>
     </div>
 </body>

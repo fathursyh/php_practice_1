@@ -1,7 +1,6 @@
 <?php
-
+namespace kelas;
 class Kendaraan {
-
   function __construct($warna, $jenis) {
     $this->warna = $warna;
     $this->jenis = $jenis;
@@ -34,4 +33,13 @@ class Minuman extends Menu {
     $this->harga = $harga;
     $this->desc = $desc;
   }
+}
+
+class Toko {
+  public string $nama;
+  public int $nomorToko;
+  function __construct(string $nama, int $nomorToko) {
+    $this->nama = $nama;
+    $this->nomorToko = $nomorToko;
+  } 
 }
