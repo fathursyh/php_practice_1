@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 
 echo "<p><br/>CLASS PRACTICE</p>";
-$mobil1 = new kelas/Kendaraan('merah','sedan');
-echo "saya memilki mobil $mobil1->jenis berwarna $mobil1->warna."; nl();
+$mobil1 = new kelas\Kendaraan('merah','sedan');
+echo "saya memilki mobil $mobil1->jenis berwarna $mobil1->warna"; nl();
 
 
 function getList($fileDir) {
@@ -26,7 +26,7 @@ $lists = getList($path);
 nl();
 $makan = [];
 foreach($lists as $x => $daftar) {
-  $newObject[$x] = new Makanan($daftar[0], (int)$daftar[1], $daftar[2]);
+  $newObject[$x] = new kelas\Makanan($daftar[0], (int)$daftar[1], $daftar[2]);
   array_push($makan, $newObject[$x]);
 }
 

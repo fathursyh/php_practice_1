@@ -6,7 +6,6 @@
             "email": "fathur.syah1@gmail.com"
         }
     ],
-    "require": {},
     "scripts": {
         "server": "php -S localhost:8080"
     }
