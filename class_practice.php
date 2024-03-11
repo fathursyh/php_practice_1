@@ -2,9 +2,12 @@
 
 declare(strict_types=1);
 
+use kelas\Kendaraan;
+use kelas\Makanan;
+use kelas\Toko;
 
 echo "<p><br/>CLASS PRACTICE</p>";
-$mobil1 = new kelas\Kendaraan('merah','sedan');
+$mobil1 = new Kendaraan('merah','sedan');
 echo "saya memilki mobil $mobil1->jenis berwarna $mobil1->warna"; nl();
 
 
@@ -26,7 +29,7 @@ $lists = getList($path);
 nl();
 $makan = [];
 foreach($lists as $x => $daftar) {
-  $newObject[$x] = new kelas\Makanan($daftar[0], (int)$daftar[1], $daftar[2]);
+  $newObject[$x] = new Makanan($daftar[0], (int)$daftar[1], $daftar[2]);
   array_push($makan, $newObject[$x]);
 }
 
