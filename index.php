@@ -12,6 +12,7 @@
 <?php include_once 'variables.php'; ?>
 <?php include_once 'variables2.php'; ?>
 <?php include_once 'functions.php'; ?>
+<?php require_once __DIR__.'/vendor/autoload.php'; ?>
 
 <body>
     <nav>

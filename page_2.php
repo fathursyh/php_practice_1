@@ -28,6 +28,7 @@
                 echo '<p>FILE MANIPULATION</p>';
                 include_once 'file_practice.php';
                 include_once 'class_practice.php';
+                include_once 'transaction.php';
            ?>
            </div>
         </div>
