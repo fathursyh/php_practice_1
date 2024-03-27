@@ -26,3 +26,4 @@ $roti->addSlice('mie');
 $bread = new ToasterPro(['tes'], 9);
 $bread->addSlice('roti');
 $bread->toastBagel();
+

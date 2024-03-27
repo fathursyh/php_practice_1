@@ -11,7 +11,7 @@ class Toaster {
 
   function __construct(array $items) {
     if(!$items) {
-      throw new \Exception("Parameter kelas ToasterPro tidak boleh array kosong.");
+      throw new \Exception("The ToasterPro constructor arguments cannot be an empty array.");
     }
     foreach ($items as $item) {
       if (count($this->slices) < $this->size){
